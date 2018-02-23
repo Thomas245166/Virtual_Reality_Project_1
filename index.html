@@ -1,0 +1,690 @@
+<html>
+<head>
+    <script src="libs/aframe.min.js"></script>
+    <script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v1.14.0/dist/aframe-extras.min.js"></script>
+    <script src="https://unpkg.com/aframe-event-set-component@^4.0.0/dist/aframe-event-set-component.min.js"></script>
+</head>
+<body>
+<a-scene>
+    <a-assets>
+        <audio id="blip1" src="sounds/firework.wav"></audio>
+        <audio id="blip2" src="sounds/Link.wav"></audio>
+        <audio id="blip3" src="sounds/Playful R2D2.mp3"></audio>
+        <audio id="blip4" src="sounds/Pokeball.mp3"></audio>
+        <audio id="blip5" src="sounds/Dinosaur.wav"></audio>
+        <audio id="blip6" src="sounds/Fallout.wav"></audio>
+        <audio id="blip7" src="sounds/Futurama.mp3"></audio>
+        <audio id="blip8" src="sounds/Overwatch.mp3"></audio>
+        <audio id="blip9" src="sounds/Record Scratch.mp3"></audio>
+        <audio id="blip10" src="sounds/Robot.wav"></audio>
+        <audio id="blip11" src="sounds/Saucer.mp3"></audio>
+        <audio id="blip12" src="sounds/Squid.wav"></audio>
+        <audio id="blip13" src="sounds/Switch.mp3"></audio>
+        <audio id="blip14" src="sounds/Vader.wav"></audio>
+
+        <img id="groundTexture" src="assets/floor.jpg">
+        <img id="garageTexture" src="assets/concrete.jpg">
+        <img id="bathTexture" src="assets/Bathroom.jpg">
+        <img id="wallTexture" src="assets/wood.jpg">
+        <img id="shelfTexture" src="assets/shelf.jpg">
+        <img id="ceilingTexture" src="assets/ceiling.jpg">
+        <img id="brickTexture" src="images/Brick.jpg">
+        <img id="Sofa" src="assets/sofa.jpg">
+        <img id="star" src="assets/star.jpg">
+
+
+        <img id="skyTexture" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/sechelt.jpg" crossorigin="anonymous">
+    </a-assets>
+
+    <a-sky src="#skyTexture"></a-sky>
+
+    <a-entity position="0 3 0">
+        <a-camera universal-controls>
+            <a-entity raycaster="far: 150; objects: .intersectable" cursor geometry="primitive: ring; radiusOuter: 0.015;
+                               radiusInner: 0.01; segmentsTheta: 32" material="color: #283644; shader: flat"
+                      position="0 0 -0.75"></a-entity>
+        </a-camera>
+    </a-entity>
+
+    <!--Banner-->
+    <a-entity geometry="width:18;height:2;primitive:plane" position="-1.598 8.279 -29.326"
+              material="shader:flat;transparent:true;src:images/rotm.png"></a-entity>
+
+    <!--ROOMMATE of the Month pictures-->
+    <a-entity geometry="primitive:plane;height:2.2;width:1.8" position="-18 6 -28.98"
+              material="shader:flat;transparent:true;src:images/Cat-Swag.png"></a-entity>
+    <a-entity geometry="primitive:plane;height:2.2;width:1.8" position="-15 6 -28.98"
+              material="shader:flat;transparent:true;src:images/Yawn-Cat.png"></a-entity>
+    <a-entity geometry="primitive:plane;height:2.2;width:1.8" position="-12 6 -28.98"
+              material="shader:flat;transparent:true;src:images/Teffs.png"></a-entity>
+    <a-entity geometry="primitive:plane;height:2.2;width:1.8" position="-9 6 -28.98"
+              material="shader:flat;transparent:true;src:images/Tiny-Blep.png"></a-entity>
+    <a-entity geometry="primitive:plane;height:2.2;width:1.8" position="-6 6 -28.98"
+              material="shader:flat;transparent:true;src:images/Purr-ito.png"></a-entity>
+    <a-entity geometry="primitive:plane;height:2.2;width:1.8" position="-3 6 -28.98"
+              material="shader:flat;transparent:true;src:images/Space-Cat.png"></a-entity>
+    <a-entity geometry="primitive:plane;height:2.2;width:1.8" position="0 6 -28.98"
+              material="shader:flat;transparent:true;src:images/Cat-Cone.png"></a-entity>
+    <a-entity geometry="primitive:plane;height:2.2;width:1.8" position="3 6 -28.98"
+              material="shader:flat;transparent:true;src:images/Big-Blep.png"></a-entity>
+    <a-entity geometry="primitive:plane;height:2.2;width:1.8" position="6 6 -28.98"
+              material="shader:flat;transparent:true;src:images/Box-Cat.png"></a-entity>
+    <a-entity geometry="primitive:plane;height:2.2;width:1.8" position="9 6 -28.98"
+              material="shader:flat;transparent:true;src:images/Purr-maid.png"></a-entity>
+    <a-entity geometry="primitive:plane;height:2.2;width:1.8" position="12 6 -28.98"
+              material="shader:flat;transparent:true;src:images/Cat-Nap.png"></a-entity>
+    <a-entity geometry="primitive:plane;height:2.2;width:1.8" position="15 6 -28.98"
+              material="shader:flat;transparent:true;src:images/Cat-Mas.png"></a-entity>
+
+    <!-- ROOMmate of the month frames-->
+    <a-entity geometry="height:2.5;width:2" position="15 6 -29.5" material="repeat:1 2;roughness:1;src:images/mount.jpg"
+              id="Jan"></a-entity>
+    <a-entity geometry="height:2.5;width:2" position="12 6 -29.5" material="repeat:1 2;roughness:1;src:images/mount.jpg"
+              id="Feb"></a-entity>
+    <a-entity geometry="height:2.5;width:2" position="9 6 -29.5" material="repeat:1 2;roughness:1;src:images/mount.jpg"
+              id="march"></a-entity>
+    <a-entity geometry="height:2.5;width:2" position="6 6 -29.5" material="repeat:1 2;roughness:1;src:images/mount.jpg"
+              id="apr"></a-entity>
+    <a-entity geometry="height:2.5;width:2" position="3 6 -29.5" material="repeat:1 2;roughness:1;src:images/mount.jpg"
+              id="may"></a-entity>
+    <a-entity geometry="height:2.5;width:2" position="0 6 -29.5" material="repeat:1 2;roughness:1;src:images/mount.jpg"
+              id="jun"></a-entity>
+    <a-entity geometry="height:2.5;width:2" position="-3 6 -29.5" material="repeat:1 2;roughness:1;src:images/mount.jpg"
+              id="july"></a-entity>
+    <a-entity geometry="height:2.5;width:2" position="-6 6 -29.5" material="repeat:1 2;roughness:1;src:images/mount.jpg"
+              id="aug"></a-entity>
+    <a-entity geometry="height:2.5;width:2" position="-9 6 -29.5" material="repeat:1 2;roughness:1;src:images/mount.jpg"
+              id="sept"></a-entity>
+    <a-entity geometry="height:2.5;width:2" position="-12 6 -29.5" material="repeat:1 2;roughness:1;src:images/mount.jpg"
+              id="out"></a-entity>
+    <a-entity geometry="height:2.5;width:2" position="-15 6 -29.5" material="repeat:1 2;roughness:1;src:images/mount.jpg"
+              id="nov"></a-entity>
+    <a-entity geometry="height:2.5;width:2" position="-18 6 -29.5" material="repeat:1 2;roughness:1;src:images/mount.jpg"
+              id="dec"></a-entity>
+
+    <!-- walls-->
+    <a-box id="Walls" src="#wallTexture" color="tomato" height="10" width="60" depth="1" position="-33.607 5 6.55"
+           rotation="0 90 0" scale="0.17 1 1"></a-box>
+    <a-box src="#wallTexture" color="tomato" height="10" width="60" depth="1" position="-33.607 5 23.888"
+           rotation="0 90 0" scale="0.264 1 1"></a-box>
+    <a-box src="#wallTexture" color="tomato" height="10" width="40" depth="1" position="0 5 -30" material=""
+           geometry=""></a-box>
+    <a-box src="#brickTexture" color="tomato" height="10" width="40" depth="1" position="-39.92 5 -30" material=""
+           geometry="" repeat="6 3"></a-box>
+    <a-box src="#wallTexture" color="tomato" height="10" width="60" depth="1" position="20 5 8" rotation="0 90 0"
+           material="" geometry=""></a-box>
+    <a-box src="#wallTexture" color="tomato" height="10" width="60" depth="1" position="-59.141 5 -0.205"
+           rotation="0 90 0" material="" geometry=""></a-box>
+    <a-box src="#wallTexture" color="tomato" height="10" width="60" depth="1" position="20 2.805 -44.137"
+           rotation="0 90 0" geometry="height:4;width:10" scale="3.57 1.917 1" material=""></a-box>
+    <a-box src="#wallTexture" color="tomato" height="10" width="60" depth="1" position="20 9.45 -40.916"
+           rotation="0 90 0" geometry="height:4;width:10" scale="3.782 1.493 1" material=""></a-box>
+    <a-box src="#wallTexture" color="tomato" height="10" width="60" depth="1" position="-20 5 0.029" rotation="0 90 0"
+           material="" geometry="" scale="0.17 1 1"></a-box>
+    <a-box src="#wallTexture" color="tomato" height="10" width="60" depth="1" position="-33.607 5 0.02"
+           rotation="0 90 0" scale="0.17 1 1"></a-box>
+    <a-box src="#wallTexture" color="tomato" height="10" width="60" depth="1" position="-29.045 4.983 4.596"
+           rotation="0 180.02333923010465 0" scale="0.15 1 1"></a-box>
+    <a-box src="#wallTexture" color="tomato" height="10" width="60" depth="1" position="-22.234 8.383 4.603"
+           rotation="0 180.023 0" geometry="width:10" scale="0.471 0.34 1"></a-box>
+    <a-box src="#wallTexture" color="tomato" height="10" width="60" depth="1" position="59.298 5 -29.779"
+           rotation="0 90 0" material="" geometry=""></a-box>
+    <a-box src="#wallTexture" color="tomato" height="10" width="40" depth="1" position="0 5 30" material=""
+           geometry=""></a-box>
+    <a-box src="#wallTexture" color="tomato" height="10" width="40" depth="1" position="-39.782 5 29.984" material=""
+           geometry=""></a-box>
+    <a-box src="#wallTexture" color="tomato" height="10" width="40" depth="1" position="-39.854 5 -5.079" material=""
+           geometry=""></a-box>
+    <a-box src="#wallTexture" color="tomato" height="10" width="40" depth="1" position="39.741 5 0.052" material=""
+           geometry=""></a-box>
+    <a-box src="#wallTexture" color="tomato" height="10" width="40" depth="1" position="46.808 5 -25.162"
+           geometry="width:25"></a-box>
+    <a-box src="#wallTexture" color="tomato" height="10" width="40" depth="1" position="34.824 5 -10.278"
+           geometry="width:20.5" rotation="0 90 0"></a-box>
+
+
+    <!--like button pictures-->
+    <a-entity geometry="primitive:plane;height:0.3;width:0.3" position="-18 3.689 -29.462"
+              material="shader:flat;transparent:true;src:images/approve.png"></a-entity>
+    <a-entity geometry="primitive:plane;height:0.3;width:0.3" position="-15 3.689 -29.462"
+              material="shader:flat;transparent:true;src:images/approve.png"></a-entity>
+    <a-entity geometry="primitive:plane;height:0.3;width:0.3" position="-12 3.689 -29.462"
+              material="shader:flat;transparent:true;src:images/approve.png"></a-entity>
+    <a-entity geometry="primitive:plane;height:0.3;width:0.3" position="-9 3.689 -29.462"
+              material="shader:flat;transparent:true;src:images/approve.png"></a-entity>
+    <a-entity geometry="primitive:plane;height:0.3;width:0.3" position="-6 3.689 -29.462"
+              material="shader:flat;transparent:true;src:images/approve.png"></a-entity>
+    <a-entity geometry="primitive:plane;height:0.3;width:0.3" position="-3 3.689 -29.462"
+              material="shader:flat;transparent:true;src:images/approve.png"></a-entity>
+    <a-entity geometry="primitive:plane;height:0.3;width:0.3" position="0 3.689 -29.462"
+              material="shader:flat;transparent:true;src:images/approve.png"></a-entity>
+    <a-entity geometry="primitive:plane;height:0.3;width:0.3" position="3 3.689 -29.462"
+              material="shader:flat;transparent:true;src:images/approve.png"></a-entity>
+    <a-entity geometry="primitive:plane;height:0.3;width:0.3" position="6 3.689 -29.462"
+              material="shader:flat;transparent:true;src:images/approve.png"></a-entity>
+    <a-entity geometry="primitive:plane;height:0.3;width:0.3" position="9 3.689 -29.462"
+              material="shader:flat;transparent:true;src:images/approve.png"></a-entity>
+    <a-entity geometry="primitive:plane;height:0.3;width:0.3" position="12 3.689 -29.462"
+              material="shader:flat;transparent:true;src:images/approve.png"></a-entity>
+    <a-entity geometry="primitive:plane;height:0.3;width:0.3" position="15 3.689 -29.462"
+              material="shader:flat;transparent:true;src:images/approve.png"></a-entity>
+
+
+    <!--animated button-->
+    <a-box color="blue" position="-18 4.2 -29.5" height=".5" width=".5" class="intersectable" material=""
+           geometry="radius:0.3; primitive:cylinder" rotation="90 0 0" sound="on: click; src: #blip1"
+           event-set__1="_event: mousedown; scale: 1 1 1;color: #2ED600"
+           event-set__2="_event: mouseup; scale: 1.4 1.4 1.4"
+           event-set__3="_event: mouseenter; scale: 1.4 1.4 1.4"
+           event-set__4="_event: mouseleave; scale: 1 1 1">
+        <a-animation begin="click" attribute="position" from="-18 4.2 -29.5" to="-18 4.2 -29.7"
+                     dur="1000"></a-animation>
+    </a-box>
+    <a-box color="blue" position="-15 4.2 -29.5" height=".5" width=".5" class="intersectable" material=""
+           geometry="radius:0.3; primitive:cylinder" rotation="90 0 0" sound="on: click; src: #blip1"
+           event-set__1="_event: mousedown; scale: 1 1 1;color: #2ED600"
+           event-set__2="_event: mouseup; scale: 1.4 1.4 1.4"
+           event-set__3="_event: mouseenter; scale: 1.4 1.4 1.4"
+           event-set__4="_event: mouseleave; scale: 1 1 1">
+        <a-animation begin="click" attribute="position" from="-15 4.2 -29.5" to="-15 4.2 -29.7"
+                     dur="1000"></a-animation>
+    </a-box>
+    <a-box color="blue" position="-12 4.2 -29.5" height=".5" width=".5" class="intersectable" material=""
+           geometry="radius:0.3; primitive:cylinder" rotation="90 0 0" sound="on: click; src: #blip1"
+           event-set__1="_event: mousedown; scale: 1 1 1;color: #2ED600"
+           event-set__2="_event: mouseup; scale: 1.4 1.4 1.4"
+           event-set__3="_event: mouseenter; scale: 1.4 1.4 1.4"
+           event-set__4="_event: mouseleave; scale: 1 1 1">
+        <a-animation begin="click" attribute="position" from="-12 4.2 -29.5" to="-12 4.2 -29.7"
+                     dur="1000"></a-animation>
+    </a-box>
+    <a-box color="blue" position="-9 4.2 -29.5" height=".5" width=".5" class="intersectable" material=""
+           geometry="radius:0.3; primitive:cylinder" rotation="90 0 0" sound="on: click; src: #blip1"
+           event-set__1="_event: mousedown; scale: 1 1 1;color: #2ED600"
+           event-set__2="_event: mouseup; scale: 1.4 1.4 1.4"
+           event-set__3="_event: mouseenter; scale: 1.4 1.4 1.4"
+           event-set__4="_event: mouseleave; scale: 1 1 1">
+        <a-animation begin="click" attribute="position" from="-9 4.2 -29.5" to="-9 4.2 -29.7" dur="1000"></a-animation>
+    </a-box>
+    <a-box color="blue" position="-6 4.2 -29.5" height=".5" width=".5" class="intersectable" material=""
+           geometry="radius:0.3; primitive:cylinder" rotation="90 0 0" sound="on: click; src: #blip1"
+           event-set__1="_event: mousedown; scale: 1 1 1;color: #2ED600"
+           event-set__2="_event: mouseup; scale: 1.4 1.4 1.4"
+           event-set__3="_event: mouseenter; scale: 1.4 1.4 1.4"
+           event-set__4="_event: mouseleave; scale: 1 1 1">
+        <a-animation begin="click" attribute="position" from="-6 4.2 -29.5" to="-6 4.2 -29.7" dur="1000"></a-animation>
+    </a-box>
+    <a-box color="blue" position="-3 4.2 -29.5" height=".5" width=".5" class="intersectable" material=""
+           geometry="radius:0.3; primitive:cylinder" rotation="90 0 0" sound="on: click; src: #blip1"
+           event-set__1="_event: mousedown; scale: 1 1 1;color: #2ED600"
+           event-set__2="_event: mouseup; scale: 1.4 1.4 1.4"
+           event-set__3="_event: mouseenter; scale: 1.4 1.4 1.4"
+           event-set__4="_event: mouseleave; scale: 1 1 1">
+        <a-animation begin="click" attribute="position" from="-3 4.2 -29.5" to="-3 4.2 -29.7" dur="1000"></a-animation>
+    </a-box>
+    <a-box color="blue" position="0 4.2 -29.5" height=".5" width=".5" class="intersectable" material=""
+           geometry="radius:0.3; primitive:cylinder" rotation="90 0 0" sound="on: click; src: #blip1"
+           event-set__1="_event: mousedown; scale: 1 1 1;color: #2ED600"
+           event-set__2="_event: mouseup; scale: 1.4 1.4 1.4"
+           event-set__3="_event: mouseenter; scale: 1.4 1.4 1.4"
+           event-set__4="_event: mouseleave; scale: 1 1 1">
+        <a-animation begin="click" attribute="position" from="0 4.2 -29.5" to="0 4.2 -29.7" dur="1000"></a-animation>
+    </a-box>
+    <a-box color="blue" position="3 4.2 -29.5" height=".5" width=".5" class="intersectable" material=""
+           geometry="radius:0.3; primitive:cylinder" rotation="90 0 0" sound="on: click; src: #blip1"
+           event-set__1="_event: mousedown; scale: 1 1 1;color: #2ED600"
+           event-set__2="_event: mouseup; scale: 1.4 1.4 1.4"
+           event-set__3="_event: mouseenter; scale: 1.4 1.4 1.4"
+           event-set__4="_event: mouseleave; scale: 1 1 1">
+        <a-animation begin="click" attribute="position" from="3 4.2 -29.5" to="3 4.2 -29.7" dur="1000"></a-animation>
+    </a-box>
+    <a-box color="blue" position="6 4.2 -29.5" height=".5" width=".5" class="intersectable" material=""
+           geometry="radius:0.3; primitive:cylinder" rotation="90 0 0" sound="on: click; src: #blip1"
+           event-set__1="_event: mousedown; scale: 1 1 1;color: #2ED600"
+           event-set__2="_event: mouseup; scale: 1.4 1.4 1.4"
+           event-set__3="_event: mouseenter; scale: 1.4 1.4 1.4"
+           event-set__4="_event: mouseleave; scale: 1 1 1">
+        <a-animation begin="click" attribute="position" from="6 4.2 -29.5" to="6 4.2 -29.7" dur="1000"></a-animation>
+    </a-box>
+    <a-box color="blue" position="9 4.2 -29.5" height=".5" width=".5" class="intersectable" material=""
+           geometry="radius:0.3; primitive:cylinder" rotation="90 0 0" sound="on: click; src: #blip1"
+           event-set__1="_event: mousedown; scale: 1 1 1;color: #2ED600"
+           event-set__2="_event: mouseup; scale: 1.4 1.4 1.4"
+           event-set__3="_event: mouseenter; scale: 1.4 1.4 1.4"
+           event-set__4="_event: mouseleave; scale: 1 1 1">
+        <a-animation begin="click" attribute="position" from="9 4.2 -29.5" to="9 4.2 -29.7" dur="1000"></a-animation>
+    </a-box>
+    <a-box color="blue" position="12 4.2 -29.5" height=".5" width=".5" class="intersectable" material=""
+           geometry="radius:0.3; primitive:cylinder" rotation="90 0 0" sound="on: click; src: #blip1"
+           event-set__1="_event: mousedown; scale: 1 1 1;color: #2ED600"
+           event-set__2="_event: mouseup; scale: 1.4 1.4 1.4"
+           event-set__3="_event: mouseenter; scale: 1.4 1.4 1.4"
+           event-set__4="_event: mouseleave; scale: 1 1 1">
+        <a-animation begin="click" attribute="position" from="12 4.2 -29.5" to="12 4.2 -29.7" dur="1000"></a-animation>
+    </a-box>
+    <a-box color="blue" position="15 4.2 -29.5" height=".5" width=".5" class="intersectable" material=""
+           geometry="radius:0.3; primitive:cylinder" rotation="90 0 0" sound="on: click; src: #blip1"
+           event-set__1="_event: mousedown; scale: 1 1 1;color: #2ED600"
+           event-set__2="_event: mouseup; scale: 1.4 1.4 1.4"
+           event-set__3="_event: mouseenter; scale: 1.4 1.4 1.4"
+           event-set__4="_event: mouseleave; scale: 1 1 1">
+        <a-animation begin="click" attribute="position" from="15 4.2 -29.5" to="15 4.2 -29.7" dur="1000"></a-animation>
+    </a-box>
+
+
+    <!--Help Menu-->
+    <a-text value="Be sure to leave a like on your favorites!" position="-8.336 3.093 -29.338" scale="3.6 3.6 3.6" text="color:#505170"></a-text>
+    <a-text value="Be sure to leave a like on your favorites!" position="-7.402 8.253 29.448" rotation="0 180 0" scale="3.002 3.002 3.002" text="value:Click on each one to play a sound!;color:#505170"></a-text>
+    <a-text value="Be sure to leave a like on your favorites!" position="-7.402 3.654 29.448" rotation="0 180 0" scale="3.002 3.002 3.002" text="color:#505170;value:Click on each one to play a sound!"></a-text>
+    <a-text value="Be sure to leave a like on your favorites!" position="34.319 4.783 -20.05" scale="0.876 0.876 0.876" text="wrapCount:13;value:Walk through here for a secret! -------->;color:#505170" rotation="0 -90.01166961505233 0"></a-text>
+    <a-text value="Be sure to leave a like on your favorites!" position="34.319 5.082 -11.369" scale="0.876 0.876 0.876" text="value:Click on him to hear what he has to say!;wrapCount:13;color:#505170" rotation="0 -90.01166961505233 0"></a-text>
+
+    <!-- ceiling-->
+    <a-box id="Ceilings" src="#ceilingTexture" color="grey" height="1" width="40" depth="60" position="0 10 0"
+           material="" geometry=""></a-box>
+    <a-box src="#ceilingTexture" color="grey" depth="40" height="1.01" width="39.97" position="-38.903 10 14.878"></a-box>
+    <a-box src="#ceilingTexture" color="grey" height="1" width="40" depth="60" position="39.612 10 -30.379"></a-box>
+    <a-box src="#ceilingTexture" color="grey" height="1" width="40" depth="30" position="-39.933 15.566 -15.546" material=""></a-box>
+
+    <!--bookshelf-->
+    <a-entity id="Living Room Bookshelf" obj-model="obj:assets/bookshelf.obj;mtl:assets/bookshelf.mtl"
+              position="18.81 4.5 7.18" scale="2 2 2" rotation="0 99.78 0"></a-entity>
+    <a-entity obj-model="obj:assets/bookshelf.obj;mtl:assets/bookshelf.mtl" position="18.81 4.5 -11.6" scale="2 2 2"
+              rotation="0 99.78 0"></a-entity>
+    <a-entity obj-model="obj:assets/bookshelf.obj;mtl:assets/bookshelf.mtl" position="18.81 4.5 -2.27" scale="2 2 2"
+              rotation="0 99.78 0"></a-entity>
+
+    <!--Shelf-->
+    <a-box id="Toy Shelf" src="#shelfTexture" color="tomato" height=".2" width="20" depth="5" position="-12.5 1.5 28"
+           material="" geometry=""></a-box>
+    <a-box src="#shelfTexture" color="tomato" height=".2" width="20" depth="5" position="-12.5 5 28"></a-box>
+
+    <!--R2D2-->
+    <a-entity id="R2" obj-model="mtl:assets/R2D2.mtl;obj:assets/R2D2.obj" position="-11.438 2.199 26.992"
+              rotation="0 68.04527863361662 0" scale="1.476 1.476 1.476" sound="on: click; src: #blip3">
+        <a-box color="red" height="5.5" width="5.5" depth="5.5" class="intersectable" scale="0.121 0.197 0.121"
+               material="opacity:0;transparent:true"></a-box>
+        <a-animation attribute="rotation" dur="10000" to="0 360 0" repeat="indefinite"></a-animation>
+    </a-entity>
+
+    <!--Link-->
+    <a-entity id="Link" obj-model="mtl:assets/Link.mtl;obj:assets/Link.obj" position="-4.616 2.611 27.445"
+              rotation="0 -28.189523520436502 1.776169164905552" scale="0.269 0.269 0.269"
+              sound="on: click; src: #blip2">
+        <a-box color="red" height="5.5" width="5.5" depth="5.5" class="intersectable" scale="1.13 1.13 1.13"
+               material="opacity:0;transparent:true"></a-box>
+    </a-entity>
+
+    <!--Overwatch-->
+    <a-entity id="Overwatch" obj-model="mtl:assets/Overwatch_LootBox.mtl;obj:assets/Overwatch_LootBox.obj"
+              position="-8.736 1.609 27.651" scale="0.013 0.013 0.013" sound="on: click; src: #blip8">
+        <a-box color="red" height="5.5" width="5.5" depth="5.5" class="intersectable" position="52.449 36.813 -48.615"
+               scale="22.314 22.314 22.314" material="opacity:0;transparent:true"></a-box>
+    </a-entity>
+
+    <!--Planet Ex Ship-->
+    <a-entity id="PlanetExShip" obj-model="mtl:assets/PlanetExShip.mtl;obj:assets/PlanetExShip.obj"
+              position="-21.018 5.054 27.327" scale="-0.014 -0.014 -0.014" rotation="90.01166961505233 0 0"
+              sound="on: click; src: #blip7">
+        <a-box color="red" height="5.5" width="5.5" depth="5.5" class="intersectable" position="0 0.009 44.6"
+               scale="27.672 13.938 15.475" material="opacity:0;transparent:true"></a-box>
+    </a-entity>
+
+    <!--Switch-->
+    <a-entity id="Switch" obj-model="mtl:assets/Switch.mtl;obj:assets/Switch.obj" position="-11.483 5.755 27.114"
+              scale="0.337 0.337 0.337" rotation="0 151.83381570966816 0" sound="on: click; src: #blip13">
+        <a-box color="red" height="5.5" width="5.5" depth="5.5" class="intersectable" rotation="0 119.46170028477664 0"
+               scale="0.346 0.938 1.415" material="opacity:0;transparent:true"></a-box>
+    </a-entity>
+
+    <!--Saucer-->
+    <a-entity id="Saucer" obj-model="mtl:assets/flying sacuer.mtl;obj:assets/flying sacuer.obj"
+              position="-14.126 5.509 27.043" scale="0.643 0.643 0.643" rotation="0 151.834 0"
+              sound="on: click; src: #blip11">
+        <a-box color="red" height="5.5" width="5.5" depth="5.5" class="intersectable" scale="0.317 0.317 0.317"
+               material="opacity:0;transparent:true"></a-box>
+    </a-entity>
+
+    <!--Triceratops-->
+    <a-entity id="Triceratop" obj-model="mtl:assets/Triceratop.mtl;obj:assets/Triceratop.obj"
+              position="-20.748 2.123 27.09" scale="1.341 1.341 1.341" sound="on: click; src: #blip5">
+        <a-box color="red" height="5.5" width="5.5" depth="5.5" class="intersectable" scale="0.185 0.185 0.185"
+               material="opacity:0;transparent:true"></a-box>
+    </a-entity>
+
+    <!--Pokeball-->
+    <a-entity id="Poke" obj-model="mtl:assets/Poke.mtl;obj:assets/Poke.obj" position="-14.102 2.08 26.836"
+              scale="4.49 4.49 4.49" rotation="0 -59.186540237014036 0" sound="on: click; src: #blip4">
+        <a-box color="red" height="5.5" width="5.5" depth="5.5" class="intersectable" scale="0.043 0.043 0.043"
+               material="opacity:0;transparent:true"></a-box>
+    </a-entity>
+
+    <!--Squid-->
+    <a-entity id="Squid" obj-model="mtl:assets/Squid.mtl;obj:assets/Squid.obj" position="-17.411 5.521 27.147"
+              scale="1.05 1.05 1.05" rotation="7.219268218648373 -30.137580023881302 32.02834074781302"
+              sound="on: click; src: #blip12">
+        <a-box color="red" height="5.5" width="5.5" depth="5.5" class="intersectable" position="1.042 -0.089 0.572"
+               scale="0.609 0.198 0.319" material="opacity:0;transparent:true"></a-box>
+    </a-entity>
+
+    <!--PipBoy-->
+    <a-entity id="Pipboy" obj-model="mtl:assets/Pipboy.mtl;obj:assets/Pipboy.obj" position="-8.356 5.58 26.925"
+              scale="4.069 4.069 4.069" sound="on: click; src: #blip6">
+        <a-box color="red" height="5.5" width="5.5" depth="5.5" class="intersectable" position="0.079 0.021 0.034"
+               scale="0.075 0.049 0.059" material="opacity:0;transparent:true"></a-box>
+    </a-entity>
+
+    <!--Phonograph-->
+    <a-entity id="Phonograph" obj-model="mtl:assets/Phonograph.mtl;obj:assets/Phonograph.obj"
+              position="-4.866 5.737 27.445" rotation="0 -104.33561449332291 1.7188733853924696"
+              scale="2.659 2.659 2.659" sound="on: click; src: #blip9">
+        <a-box color="red" height="5.5" width="5.5" depth="5.5" class="intersectable" position="0.008 0.268 0"
+               scale="0.165 0.178 0.165" material="opacity:0;transparent:true"></a-box>
+    </a-entity>
+
+    <!-- Scott's StarDestroyer -->
+    <a-obj-model id="StarDestroyer" src="assets/StarDestroyer.obj" position="-17.568 1.65 27.646" scale="0.6 0.6 0.6"
+                 class="intersectable" material="src:#star" rotation="0 44.34693334312572 0"
+                 sound="on: click; src: #blip14">
+        <a-box color="red" height="5.5" width="5.5" depth="5.5" class="intersectable" position="0 0.264 0"
+               scale="0.935 0.232 0.564" material="opacity:0;transparent:true"></a-box>
+    </a-obj-model>
+
+    <!--Sofa-->
+    <a-entity id="Couch" obj-model="mtl:assets/Couch.mtl;obj:assets/Couch.obj" rotation="0 180 0"
+              position="8.584 1.409 13.793" scale="7.644 7.644 7.644"></a-entity>
+
+    <!--Recliner-->
+    <a-entity id="Recliner" obj-model="mtl:assets/Recliner.mtl;obj:assets/Recliner.obj" rotation="0 180 0"
+              position="0.246 2.307 20.233" scale="8.923 8.923 8.923"></a-entity>
+
+    <!--HDTV-->
+    <a-entity id="TV" obj-model="mtl:assets/HDTV.mtl;obj:assets/HDTV.obj" rotation="0 180 0" position="-192 0 -135.607"
+              scale="0.5 0.5 0.5"></a-entity>
+
+    <!--Bed -->
+    <a-entity id="Bed" obj-model="mtl:assets/Bed.mtl;obj:assets/Bed.obj" position="55.059 2.71 -31.495"
+              scale="7.604 7.604 7.604" rotation="0 59.47301913457945 0"></a-entity>
+
+    <!--Server Rack-->
+    <a-entity id="Servers" obj-model="mtl:assets/ServerRack.mtl;obj:assets/ServerRack.obj"
+              position="22.691 4.532 -1.483" scale="3.611 3.611 3.611"></a-entity>
+    <a-entity id="Servers-2" obj-model="mtl:assets/ServerRack.mtl;obj:assets/ServerRack.obj"
+              position="22.691 4.532 -6.387" scale="3.611 3.611 3.611"></a-entity>
+    <a-entity id="Servers-3" obj-model="mtl:assets/ServerRack.mtl;obj:assets/ServerRack.obj"
+              position="22.691 4.532 -11.027" scale="3.611 3.611 3.611"></a-entity>
+
+    <!--floor-->
+    <a-plane id="Floors" src="#groundTexture" rotation="-90.012 0 0" width="40" height="60" repeat="10 10"></a-plane>
+    <a-plane src="#bathTexture" rotation="-90.012 0 0" width="25" height="25" repeat="10 10" position="47.094 0.05 -12.678"></a-plane>
+    <a-plane src="#groundTexture" rotation="-90.012 0 0" width="40" height="39" repeat="10 10" position="-39.633 0 13.868" ></a-plane>
+    <a-plane src="#groundTexture" rotation="-90.012 0 0" width="40" height="60" repeat="10 10" position="39.548 0 -29.756"></a-plane>
+    <a-plane src="#garageTexture" rotation="-90.012 90 0" width="37.83" height="30" repeat="1 1" position="-48.784 .01 13.868"></a-plane>
+
+    <!-- lights-->
+    <a-light id="Lights" position="9 7 22" rotation="-90 0 0" light="angle:75;decay:0;distance:10;intensity:0.5;penumbra:0.75;type:ambient"></a-light>
+
+    <a-light position="-23.646 10.485 -0.056" light="distance:10;intensity:0.01;angle:0;decay:0"></a-light>
+
+    <a-light position="-17.445 4 27.336" rotation="-90 180 180" light="angle:45;decay:0.1;distance:3.01;type:spot"></a-light>
+    <a-light position="-11.438 4 27.142" rotation="-90 180 180" light="angle:26;decay:0.1;distance:3;type:spot"></a-light>
+    <a-light position="-14.091 4 27.061" rotation="-90 180 180" light="angle:21;decay:0.1;distance:3;type:spot"></a-light>
+    <a-light position="-8.1 4 26.989" rotation="-90 180 180" light="angle:21;decay:0.1;distance:3;type:spot"></a-light>
+    <a-light position="-4.759 4 27.403" rotation="-90 180 180" light="angle:35;decay:0.1;distance:3;type:spot"></a-light>
+    <a-light position="-21.001 4 27.336" rotation="-90 180 180" light="angle:30;decay:0.1;distance:3.01;type:spot"></a-light>
+<!--
+    <a-light position="-17.445 7.5 27.336" rotation="-90 180 180" light="angle:45;decay:0.1;distance:3.01;type:spot"></a-light>
+    <a-light position="-11.438 7.5 27.142" rotation="-90 180 180" light="angle:26;decay:0.1;distance:3;type:spot"></a-light>
+    <a-light position="-14.091 7.5 27.061" rotation="-90 180 180" light="angle:21;decay:0.1;distance:3;type:spot"></a-light>
+    <a-light position="-8.1000 7.5 26.989" rotation="-90 180 180" light="angle:21;decay:0.1;distance:3;type:spot"></a-light>
+    <a-light position="-21.001 7.428 27.336" rotation="-90 180 180" light="angle:30;decay:0.1;distance:3.01;type:spot"></a-light>
+    <a-light position="-4.759 8.548 27.561" rotation="-90 180 180" light="distance:4;angle:35;decay:0.1;type:spot"></a-light>
+-->
+    <!--LIGHTBULBS-->
+    <a-entity id="LIGHT-1" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-17.47 4.876 27.198"
+              scale="2 2 2" rotation="0 0 180.02333923010465"></a-entity>
+    <a-entity id="LIGHT-2" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-14.089 4.876 27.198"
+              scale="2 2 2" rotation="0 0 180.02333923010465"></a-entity>
+    <a-entity id="LIGHT-3" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-11.442 4.876 27.198"
+              scale="2 2 2" rotation="0 0 180.02333923010465"></a-entity>
+    <a-entity id="LIGHT-4" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-8.154 4.876 27.198"
+              scale="2 2 2" rotation="0 0 180.02333923010465"></a-entity>
+    <a-entity id="LIGHT-5" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-4.668 4.876 27.198"
+              scale="2 2 2" rotation="0 0 180.02333923010465"></a-entity>
+    <a-entity id="LIGHT-6" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-4.668 9.428 27.198"
+              scale="2 2 2" rotation="0 0 180.02333923010465"></a-entity>
+    <a-entity id="LIGHT-7" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-17.493 9.428 27.198"
+              scale="2 2 2" rotation="0 0 180.02333923010465"></a-entity>
+    <a-entity id="LIGHT-8" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-14.06 9.428 27.198"
+              scale="2 2 2" rotation="0 0 180.02333923010465"></a-entity>
+    <a-entity id="LIGHT-9" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-11.465 9.428 27.198"
+              scale="2 2 2" rotation="0 0 180.02333923010465"></a-entity>
+    <a-entity id="LIGHT10" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-8.06 9.428 27.198"
+              scale="2 2 2" rotation="0 0 180.02333923010465"></a-entity>
+    <a-entity id="LIGHT-11" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-20.883 4.861 27.198"
+              scale="2 2 2" rotation="0 0 180.023"></a-entity>
+    <a-entity id="LIGHT-10" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-20.883 9.428 27.198"
+              scale="2 2 2" rotation="0 0 180.023"></a-entity>
+
+    <!--Ceiling Fan-->
+    <a-entity id="Ceiling Fan" obj-model="mtl:assets/540 Ceiling Fan.mtl;obj:assets/540 Ceiling Fan.obj"
+              position="9 7 22" rotation="0 46.32879561357526 0" scale="0.01 0.01 0.01">
+        <a-animation attribute="rotation" dur="5000" to="0 720 0" repeat="indefinite"></a-animation>
+    </a-entity>
+
+    <!--Fireplace-->
+    <a-entity id="Fireplace" obj-model="mtl:assets/Fireplace.mtl;obj:assets/Fireplace.obj" position="28.75 0 20.5"
+              scale="0.00027 0.00027 0.00027"></a-entity>
+
+    <!--Garage-->
+    <a-entity id="Garage Door" obj-model="mtl:assets/Garage.mtl;obj:assets/Garage.obj" position="-46.217 0 29.957"
+              scale="5.592 5.592 11.076"></a-entity>
+
+    <!--Washer-->
+    <a-entity id="Washer" obj-model="mtl:assets/Washer.mtl;obj:assets/Washer.obj" position="-29.676 2.907 -3.272"
+              scale="22.312 22.312 22.312"
+              rotation="-1.6615776058793874 61.93673765364199 0.8594366926962348"></a-entity>
+
+    <!--Motorcycle-->
+    <a-entity id="Motorcycle" obj-model="mtl:assets/Motorcycle.mtl;obj:assets/Motorcycle.obj"
+              position="-53.56 2.44 15.586" scale="1.567 1.567 1.567" rotation="0 90 0"></a-entity>
+
+    <!--Tank-->
+    <a-entity id="Tank" obj-model="mtl:assets/Tank.mtl;obj:assets/Tank.obj" position="-43.894 3.5 15.882"
+              scale="18.672 18.672 18.672" rotation="4.927437038125079 -50.2483986329732 -5.901465289847479"></a-entity>
+
+    <!--Lamp for garage light-->
+    <a-entity id="Garage Lamp" obj-model="mtl:assets/GarageLight.mtl;obj:assets/GarageLight.obj"
+              position="-46.217 9.092 9.721" scale="18.551 18.551 18.551"></a-entity>
+
+    <!--Lamp for Foyer-->
+    <a-entity id="Foyer Lamp" obj-model="mtl:assets/FoyerLamp.mtl;obj:assets/FoyerLamp.obj"
+              position="18.529 5.373 -19.033" scale="1.606 1.606 1.606"></a-entity>
+
+    <!--Fixture for kitchen light-->
+    <a-entity id="Kitchen Lamp" obj-model="mtl:assets/Flourscent.mtl;obj:assets/Flourscent.obj"
+              position="-37.425 14.069 -18.889" scale="25.82 25.82 25.82"></a-entity>
+
+    <!--Drill-->
+    <a-entity id="Drill" obj-model="mtl:assets/Drill.mtl;obj:assets/Drill.obj" position="-29.676 6.46 -3.809"
+              scale="3.684 3.684 3.684"
+              rotation="-20.110818609091893 -180.02333923010465 -90.01166961505233"></a-entity>
+
+    <!--Toilet Paper-->
+    <a-entity id="TP" obj-model="mtl:assets/TP.mtl;obj:assets/TP.obj" position="-32.092 7.338 -1.094"
+              scale="9.018 3.684 3.684" rotation="0 0 90"></a-entity>
+    <a-entity id="TP-2" obj-model="mtl:assets/TP.mtl;obj:assets/TP.obj" position="-32.092 7.414 2.215"
+              scale="9.555 3.684 3.684" rotation="0 0 90"></a-entity>
+    <a-entity id="TP-3" obj-model="mtl:assets/TP.mtl;obj:assets/TP.obj" position="-32.092 7.472 0.5"
+              scale="10.018 3.684 3.684" rotation="0 0 90"></a-entity>
+
+    <!--Robot-->
+    <a-entity id="Robot" obj-model="mtl:assets/robit.mtl;obj:assets/robit.obj" position="27.756 4.471 -7.09"
+              scale="5.261 5.261 5.261" rotation="0 90.01166961505233 0" sound="on: click; src: #blip10">
+        <a-box color="red" height="5.5" width="5.5" depth="5.5" class="intersectable" position="0 -0.168 0"
+               scale="0.152 0.211 0.125" material="opacity:0;transparent:true"></a-box>
+    </a-entity>
+
+    <!--Wizard-->
+    <a-entity id="Wizard table" obj-model="mtl:assets/Wizard.mtl;obj:assets/Wizard.obj" position="23.923 2.93 -39.902"
+              scale="2.665 3.758 3.589"></a-entity>
+
+    <!--bookcase-->
+    <a-entity id="Bedroom Book Case" obj-model="mtl:assets/Bookcase.mtl;obj:assets/Bookcase.obj"
+              position="57.068 2.312 -45.535" scale="6.066 4.493 6.648" rotation="0 90 0"></a-entity>
+
+    <!--Desk-->
+    <a-entity id="Desk" obj-model="mtl:assets/Wall_Desk_Speakers_1341.mtl;obj:assets/Wall_Desk_Speakers_1341.obj"
+              position="27.855 -1.5 -50.567" scale="0.165 0.165 0.165" rotation="0 90 0"></a-entity>
+
+    <!--Camping Stuff-->
+    <a-entity id="Camping stuff" obj-model="mtl:assets/Camping stuff.mtl;obj:assets/Camping stuff.obj"
+              position="-36.527 2.791 0.9" scale="6.648 6.648 6.648"></a-entity>
+
+    <!--shelf-->
+    <a-entity id="storage shelf" obj-model="mtl:assets/Shelf.mtl;obj:assets/Shelf.obj" position="-30.983 0.528 -6.325"
+              scale="0 0 0"></a-entity>
+    <a-entity obj-model="mtl:assets/Shelf.mtl;obj:assets/Shelf.obj" position="-21.784 0.528 -2.472"
+              scale="0.00001 0.00001 0.00001" rotation="0 -90 0"></a-entity>
+
+    <!--Rug-->
+    <a-entity id="Rug" obj-model="mtl:assets/Rug.mtl;obj:assets/Rug.obj" position="-1.675 0.117 -16.3"
+              scale="7.535 7.535 7.535" rotation="0 90 0"></a-entity>
+
+    <!--closet-->
+    <a-entity id="Closet" obj-model="mtl:assets/SM_Closet_02.mtl;obj:assets/SM_Closet_02.obj"
+              position="28.252 0 -14.837" scale="3.98 2.856 2.856" rotation="0 180 0"></a-entity>
+
+    <!--door-->
+    <a-entity id="Doors" obj-model="mtl:assets/Door.mtl;obj:assets/Door.obj" position="-34.129 3.563 14.409"
+              scale="5 6 5" rotation="0 270 0"></a-entity>
+    <a-entity obj-model="mtl:assets/Door.mtl;obj:assets/Door.obj" position="20.158 3.563 -24.67" scale="5 6 5"
+              rotation="0 90 0"></a-entity>
+    <a-entity obj-model="mtl:assets/Door.mtl;obj:assets/Door.obj" position="-22.045 3.563 5.214"
+              scale="5 6 5"></a-entity>
+    <a-entity obj-model="mtl:assets/Door.mtl;obj:assets/Door.obj" position="35.411 3.563 -23.132" scale="5 6 5"
+              rotation="0 90 0"></a-entity>
+
+    <!--Bar-->
+    <a-entity id="Bar" obj-model="mtl:assets/bar.mtl;obj:assets/bar.obj" position="-16.044 2.756 1.215"
+              scale="1.987 1.987 1.987"></a-entity>
+
+    <!--Coffee Table-->
+    <a-entity id="Coffee table" obj-model="mtl:assets/Coffee.mtl;obj:assets/Coffee.obj" position="9.2 0.952 20"
+              scale="3.183 3.183 3.183"></a-entity>
+
+    <!--boxshelfs-->
+    <a-entity id="Boxshelfs" obj-model="mtl:assets/ShelfBox.mtl;obj:assets/ShelfBox.obj"
+              rotation="0 -90.01166961505233 0" position="-31.526 2.791 26.549" scale="3.673 3.673 3.673"></a-entity>
+
+    <!--kitchen-->
+    <a-entity id="Kitchen" obj-model="mtl:assets/Kitchen.mtl;obj:assets/Kitchen.obj" position="-38.691 3.816 -13.088"
+              rotation="0 -90.012 0" scale="11.993 11.993 11.993"></a-entity>
+
+    <!--Bathroom-->
+    <a-entity id="Bathroom" obj-model="mtl:assets/Bathroom_1248.mtl;obj:assets/Bathroom_1248.obj"
+              position="47.049 -0.403 -14.005" rotation="0 270 0" scale="0.469 0.242 0.453"></a-entity>
+
+    <!--windows-->
+    <a-entity id="Windows" obj-model="mtl:assets/Window.mtl;obj:assets/Window.obj" position="-33.631 8.052 13.846"
+              scale="3.349 5.422 8.089"></a-entity>
+    <a-entity obj-model="mtl:assets/Window.mtl;obj:assets/Window.obj" position="-20.114 12.516 -16.988"
+              scale="6.105 8.692 47.607"></a-entity>
+    <a-entity obj-model="mtl:assets/Window.mtl;obj:assets/Window.obj" position="-38.548 12.57 -30.051"
+              scale="6.105 8.692 66.087" rotation="0 90.01166961505233 0"></a-entity>
+    <a-entity obj-model="mtl:assets/Window.mtl;obj:assets/Window.obj" position="39.597 4.927 -58.596"
+              scale="6.105 16.697 70.842" rotation="0 90.012 0"></a-entity>
+    <a-entity obj-model="mtl:assets/Window.mtl;obj:assets/Window.obj" position="34.812 7.967 -22.553"
+              scale="3.349 5.422 7.582"></a-entity>
+
+    <!--fire and flame lights-->
+    <a-light position="18.633 1.189 21.648"
+             light="angle:75;color:#d12810;groundColor:#eff411;decay:0.5;distance:5;intensity:0.09;type:ambient"></a-light>
+    <a-light position="18.633 1.189 20.317"
+             light="angle:75;color:#eaf32c;groundColor:#eff411;decay:0.5;distance:5;intensity:0.03;type:ambient"></a-light>
+    <a-light position="18.633 1.189 23.338"
+             light="angle:75;color:#eead17;groundColor:#eff411;decay:0.5;distance:5;intensity:0.075;type:ambient"></a-light>
+
+    <a-entity id="Fire" geometry="" position="19 -0.3 23.5" material="color:#222">
+
+        <a-entity geometry="primitive:plane" position="0 0.9128116666670475 0"
+                  material="shader:flat;side:double;transparent:true;src:images/fire.png">
+            <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="450"></a-animation>
+        </a-entity>
+
+        <a-entity geometry="primitive:plane" position="0 0.928370000000298 0" rotation="0 90 0"
+                  material="shader:flat;side:double;transparent:true;src:images/fire.png">
+            <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="500"></a-animation>
+        </a-entity>
+
+    </a-entity>
+    <a-entity geometry="" position="19 -0.3 23" material="color:#222">
+
+        <a-entity geometry="primitive:plane" position="0 0.9128116666670475 0"
+                  material="shader:flat;side:double;transparent:true;src:images/fire.png">
+            <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="450"></a-animation>
+        </a-entity>
+
+        <a-entity geometry="primitive:plane" position="0 0.928370000000298 0" rotation="0 90 0"
+                  material="shader:flat;side:double;transparent:true;src:images/fire.png">
+            <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="500"></a-animation>
+        </a-entity>
+
+    </a-entity>
+    <a-entity geometry="" position="19 -0.3 22.5" material="color:#222">
+
+        <a-entity geometry="primitive:plane" position="0 0.9128116666670475 0"
+                  material="shader:flat;side:double;transparent:true;src:images/fire.png">
+            <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="450"></a-animation>
+        </a-entity>
+
+        <a-entity geometry="primitive:plane" position="0 0.928370000000298 0" rotation="0 90 0"
+                  material="shader:flat;side:double;transparent:true;src:images/fire.png">
+            <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="500"></a-animation>
+        </a-entity>
+
+    </a-entity>
+    <a-entity geometry="" position="19 -0.3 22" material="color:#222">
+
+        <a-entity geometry="primitive:plane" position="0 0.9128116666670475 0"
+                  material="shader:flat;side:double;transparent:true;src:images/fire.png">
+            <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="450"></a-animation>
+        </a-entity>
+
+        <a-entity geometry="primitive:plane" position="0 0.928370000000298 0" rotation="0 90 0"
+                  material="shader:flat;side:double;transparent:true;src:images/fire.png">
+            <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="500"></a-animation>
+        </a-entity>
+
+    </a-entity>
+    <a-entity geometry="" position="19 -0.3 21.5" material="color:#222">
+
+        <a-entity geometry="primitive:plane" position="0 0.9128116666670475 0"
+                  material="shader:flat;side:double;transparent:true;src:images/fire.png">
+            <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="450"></a-animation>
+        </a-entity>
+
+        <a-entity geometry="primitive:plane" position="0 0.928370000000298 0" rotation="0 90 0"
+                  material="shader:flat;side:double;transparent:true;src:images/fire.png">
+            <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="500"></a-animation>
+        </a-entity>
+
+    </a-entity>
+    <a-entity geometry="" position="19 -0.3 21" material="color:#222">
+
+        <a-entity geometry="primitive:plane" position="0 0.9128116666670475 0"
+                  material="shader:flat;side:double;transparent:true;src:images/fire.png">
+            <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="450"></a-animation>
+        </a-entity>
+
+        <a-entity geometry="primitive:plane" position="0 0.928370000000298 0" rotation="0 90 0"
+                  material="shader:flat;side:double;transparent:true;src:images/fire.png">
+            <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="500"></a-animation>
+        </a-entity>
+
+    </a-entity>
+
+</a-scene>
+
+</body>
+</html>

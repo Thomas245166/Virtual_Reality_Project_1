@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="41ee0199-1e0e-4c86-b567-5b0db01bc24b" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitattributes" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/Project1.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/540 Ceiling Fan.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/540 Ceiling Fan.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/540 Ceiling Fan.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Bathroom.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Bathroom_1248.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Bathroom_1248.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Bed.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Bed.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Bookcase.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Bookcase.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Camping stuff.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Camping stuff.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Coffee.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Coffee.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Couch.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Couch.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Door.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Door.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Drill.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Drill.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Fireplace.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Fireplace.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Flourscent.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Flourscent.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/FoyerLamp.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/FoyerLamp.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Fshipbody.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Garage.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Garage.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/GarageLight.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/GarageLight.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/HDTV.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/HDTV.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/HDTV/HDTV_BACK_PANEL.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/HDTV/USB.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Kitchen.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Kitchen.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/LIGHT.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/LIGHT.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Link.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Link.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Manatee.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Manatee.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Motorcycle.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Motorcycle.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Overwatch_LootBox.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Overwatch_LootBox.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Overwatch_LootBox/Overwatch_Lootbox_Bezova.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Phonograph.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Phonograph.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Pipboy.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Pipboy.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/PlanetExShip.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/PlanetExShip.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Poke.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Poke.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/R2D2.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/R2D2.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Recliner.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Recliner.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Rug.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Rug.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/SM_Closet_02.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/SM_Closet_02.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/ServerRack.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/ServerRack.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Shelf.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Shelf.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/ShelfBox.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/ShelfBox.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Spade.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Spade.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Squid.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Squid.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Standing_lamp_01.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Standing_lamp_01.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/StarDestroyer.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Switch.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Switch.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/TP.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/TP.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Tank.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Tank.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Triceratop.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Triceratop.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Wall_Desk_Speakers_1341.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Wall_Desk_Speakers_1341.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Washer.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Washer.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Window.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Window.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Wizard.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/Wizard.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/bar.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/bar.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/bookshelf.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/bookshelf.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/ceiling.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/concrete.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/fdshipgear.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/floor.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/flying sacuer.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/flying sacuer.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/robit.mtl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/robit.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/shelf.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/sofa.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/star.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/wood.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/Big-Blep.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/Box-Cat.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/Brick.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/Cat-Cone.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/Cat-Crash.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/Cat-Face.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/Cat-Mas.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/Cat-Nap.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/Cat-Swag.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/Purr-ito.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/Purr-maid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/Space-Cat.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/Teffs.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/Tiny-Blep.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/Yawn-Cat.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/approve.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/fire.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/mount.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/rotm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/libs/ColladaLoader.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/libs/MTLLoader.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/libs/aframe.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/screenshots/BarandKitchen.JPG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/screenshots/Bathroom.JPG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/screenshots/Bedroom.JPG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/screenshots/CeilingFan.JPG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/screenshots/Fire.JPG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/screenshots/Foyer.JPG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/screenshots/Garage.JPG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/screenshots/HiddenServerRoom.JPG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/screenshots/Kitchen.JPG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/screenshots/Laundry.JPG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/screenshots/Livingroom.JPG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/screenshots/R2.JPG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/screenshots/Roommateofthemonth.JPG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/screenshots/Shelf.JPG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/screenshots/robot.JPG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sounds/Dinosaur.wav" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sounds/Fallout.wav" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sounds/Futurama.mp3" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sounds/Link.wav" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sounds/Overwatch.mp3" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sounds/Playful R2D2.mp3" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sounds/Pokeball.mp3" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sounds/Record Scratch.mp3" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sounds/Robot.wav" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sounds/Saucer.mp3" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sounds/Squid.wav" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sounds/Switch.mp3" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sounds/Vader.wav" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sounds/firework.wav" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="54" column="88" lean-forward="false" selection-start-line="54" selection-start-column="88" selection-end-line="54" selection-end-column="88" />
+              <folding>
+                <element signature="n#a-box#19;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-box#20;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-box#21;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-box#22;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-box#23;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-box#24;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-box#25;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-box#26;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-box#27;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-box#28;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-box#29;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-box#30;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-entity#107;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-entity#1;n#a-entity#107;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-entity#108;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-entity#0;n#a-entity#108;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-entity#1;n#a-entity#108;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-entity#109;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-entity#1;n#a-entity#109;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-entity#110;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-entity#0;n#a-entity#110;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-entity#111;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-entity#0;n#a-entity#111;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-entity#112;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ight</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/tutorial.html" />
+        <option value="$USER_HOME$/Downloads/localhost-63342-thomas245166-github-io-index-html.html" />
+        <option value="$USER_HOME$/Downloads/localhost-63342-thomas245166-github-io-index-html (1).html" />
+        <option value="$USER_HOME$/Downloads/localhost-63342-thomas245166-github-io-index-html (3).html" />
+        <option value="$USER_HOME$/Downloads/localhost-63342-thomas245166-github-io-index-html (4).html" />
+        <option value="$USER_HOME$/Downloads/localhost-63342-thomas245166-github-io-index-html (5).html" />
+        <option value="$USER_HOME$/Downloads/localhost-63342-thomas245166-github-io-index-html (7).html" />
+        <option value="$USER_HOME$/Downloads/localhost-63342-thomas245166-github-io-index-html (12).html" />
+        <option value="$USER_HOME$/Downloads/localhost-63342-thomas245166-github-io-index-html (14).html" />
+        <option value="$USER_HOME$/Downloads/localhost-63342-thomas245166-github-io-index-html (17).html" />
+        <option value="$PROJECT_DIR$/audio.html" />
+        <option value="$PROJECT_DIR$/assets/Motorcycle.mtl" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Virtual_Reality_Project_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Virtual_Reality_Project_1" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/libs" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.ColladaLoader.js">
+    <configuration name="ColladaLoader.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="ColladaLoader.js" working-dir="$PROJECT_DIR$/libs" />
+    <configuration name="MTLLoader.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="MTLLoader.js" working-dir="$PROJECT_DIR$/libs" />
+    <configuration name="aframe.min.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="aframe.min.js" working-dir="$PROJECT_DIR$/libs" />
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.MTLLoader.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.ColladaLoader.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.aframe.min.js" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.aframe.min.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.ColladaLoader.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.MTLLoader.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="41ee0199-1e0e-4c86-b567-5b0db01bc24b" name="Default" comment="" />
+      <created>1516662069485</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1516662069485</updated>
+      <workItem from="1516662092996" duration="546000" />
+      <workItem from="1516679272572" duration="1933000" />
+      <workItem from="1516856630030" duration="863000" />
+      <workItem from="1518374294383" duration="1694000" />
+      <workItem from="1518382093853" duration="4109000" />
+      <workItem from="1518475719448" duration="9173000" />
+      <workItem from="1518733403231" duration="229000" />
+      <workItem from="1518733709374" duration="73000" />
+      <workItem from="1518733817525" duration="32834000" />
+      <workItem from="1518835028816" duration="11674000" />
+      <workItem from="1518898748201" duration="3317000" />
+      <workItem from="1518905811357" duration="15083000" />
+      <workItem from="1518965057687" duration="24013000" />
+      <workItem from="1519076198154" duration="19978000" />
+      <workItem from="1519108818488" duration="5217000" />
+      <workItem from="1519114183390" duration="6684000" />
+      <workItem from="1519121180796" duration="3821000" />
+      <workItem from="1519125568359" duration="3227000" />
+      <workItem from="1519130580170" duration="1451000" />
+      <workItem from="1519132457228" duration="1252000" />
+      <workItem from="1519142847051" duration="6818000" />
+      <workItem from="1519321979075" duration="1997000" />
+      <workItem from="1519396749036" duration="3246000" />
+      <workItem from="1519418517462" duration="37000" />
+      <workItem from="1519419128998" duration="77000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="159381000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1734375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32622603" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#a-box#19;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#20;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#21;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#22;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#23;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#24;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#25;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#26;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#27;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#28;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#29;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#30;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#107;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#1;n#a-entity#107;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#108;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#0;n#a-entity#108;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#1;n#a-entity#108;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#109;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#1;n#a-entity#109;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#110;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#0;n#a-entity#110;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#111;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#0;n#a-entity#111;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#112;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="289">
+            <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#a-box#19;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#20;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#21;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#22;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#23;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#24;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#25;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#26;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#27;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#28;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#29;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#30;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#107;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#1;n#a-entity#107;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#108;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#0;n#a-entity#108;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#1;n#a-entity#108;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#109;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#1;n#a-entity#109;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#110;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#0;n#a-entity#110;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#111;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#0;n#a-entity#111;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#112;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#a-box#19;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#20;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#21;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#22;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#23;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#24;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#25;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#26;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#27;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#28;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#29;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#30;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#107;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#1;n#a-entity#107;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#108;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#0;n#a-entity#108;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#1;n#a-entity#108;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#109;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#1;n#a-entity#109;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#110;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#0;n#a-entity#110;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#111;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#0;n#a-entity#111;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#112;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#a-box#19;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#20;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#21;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#22;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#23;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#24;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#25;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#26;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#27;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#28;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#29;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#30;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#107;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#1;n#a-entity#107;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#108;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#0;n#a-entity#108;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#1;n#a-entity#108;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#109;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#1;n#a-entity#109;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#110;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#0;n#a-entity#110;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#111;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#0;n#a-entity#111;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#112;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/audio.html" />
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="52" lean-forward="false" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#a-box#19;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#20;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#21;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#22;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#23;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#24;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#25;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#26;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#27;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#28;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#29;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#30;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#107;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#1;n#a-entity#107;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#108;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#0;n#a-entity#108;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#1;n#a-entity#108;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#109;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#1;n#a-entity#109;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#110;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#0;n#a-entity#110;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#111;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#0;n#a-entity#111;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#112;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial.html" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="119">
+            <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#a-box#19;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#20;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#21;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#22;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#23;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#24;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#25;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#26;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#27;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#28;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#29;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#30;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#107;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#1;n#a-entity#107;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#108;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#0;n#a-entity#108;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#1;n#a-entity#108;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#109;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#1;n#a-entity#109;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#110;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#0;n#a-entity#110;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#111;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#0;n#a-entity#111;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#112;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial.html" />
+    <entry file="file://$PROJECT_DIR$/assets/busterDrone.gltf" />
+    <entry file="file://$PROJECT_DIR$/libs/aframe.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9690">
+          <caret line="570" column="0" lean-forward="false" selection-start-line="570" selection-start-column="0" selection-end-line="570" selection-end-column="0" />
+          <folding>
+            <element signature="n#a-box#19;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#20;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#21;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#22;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#23;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#24;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#25;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#26;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#27;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#28;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#29;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#30;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#107;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#1;n#a-entity#107;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#108;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#0;n#a-entity#108;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#1;n#a-entity#108;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#109;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#1;n#a-entity#109;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#110;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#0;n#a-entity#110;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#111;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#0;n#a-entity#111;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#112;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/busterDrone.gltf" />
+    <entry file="file://$PROJECT_DIR$/libs/aframe.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial.html" />
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#a-box#19;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#20;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#21;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#22;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#23;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#24;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#25;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#26;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#27;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#28;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#29;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#30;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#107;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#1;n#a-entity#107;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#108;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#0;n#a-entity#108;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#1;n#a-entity#108;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#109;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#1;n#a-entity#109;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#110;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#0;n#a-entity#110;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#111;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#0;n#a-entity#111;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#112;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/busterDrone.gltf" />
+    <entry file="file://$PROJECT_DIR$/libs/aframe.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#a-box#19;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#20;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#21;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#22;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#23;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#24;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#25;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#26;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#27;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#28;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#29;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#30;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#107;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#1;n#a-entity#107;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#108;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#0;n#a-entity#108;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#1;n#a-entity#108;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#109;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#1;n#a-entity#109;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#110;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#0;n#a-entity#110;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#111;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#0;n#a-entity#111;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#112;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/aframe.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/aframe.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/busterDrone.gltf" />
+    <entry file="file://$PROJECT_DIR$/tutorial.html" />
+    <entry file="file://$USER_HOME$/Downloads/localhost-63342-thomas245166-github-io-index-html.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/localhost-63342-thomas245166-github-io-index-html (1).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/localhost-63342-thomas245166-github-io-index-html (3).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/localhost-63342-thomas245166-github-io-index-html (4).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="157" column="3" lean-forward="false" selection-start-line="157" selection-start-column="3" selection-end-line="157" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/localhost-63342-thomas245166-github-io-index-html (5).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="163" column="0" lean-forward="false" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Thomas245166.github.io-master/Thomas245166.github.io-master/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="3" column="65" lean-forward="false" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/brick3.jpg" />
+    <entry file="file://$USER_HOME$/Downloads/localhost-63342-thomas245166-github-io-index-html (7).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="191" column="174" lean-forward="false" selection-start-line="189" selection-start-column="3" selection-end-line="191" selection-end-column="174" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/localhost-63342-thomas245166-github-io-index-html (12).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="175" column="18" lean-forward="false" selection-start-line="175" selection-start-column="18" selection-end-line="175" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/localhost-63342-thomas245166-github-io-index-html (14).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/localhost-63342-thomas245166-github-io-index-html (16).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1530">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/localhost-63342-thomas245166-github-io-index-html (17).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2456">
+          <caret line="203" column="0" lean-forward="true" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/540 Ceiling Fan.mtl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Motorcycle.mtl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/WartHog.mtl" />
+    <entry file="file://$PROJECT_DIR$/audio.html" />
+    <entry file="file://$PROJECT_DIR$/_config.yml" />
+    <entry file="file://$PROJECT_DIR$/screenshots/Livingroom.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/MTLLoader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="204" column="28" lean-forward="false" selection-start-line="204" selection-start-column="28" selection-end-line="204" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_CS5331001-Virtual-Reality-master (1).zip/CS5331001-Virtual-Reality-master/audio.html" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_CS5331001-Virtual-Reality-master (1).zip/CS5331001-Virtual-Reality-master/index.html" />
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="52" lean-forward="false" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Input Stats (2)">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="2669">
+            <caret line="157" column="52" lean-forward="false" selection-start-line="157" selection-start-column="52" selection-end-line="157" selection-end-column="52" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="54" column="88" lean-forward="false" selection-start-line="54" selection-start-column="88" selection-end-line="54" selection-end-column="88" />
+          <folding>
+            <element signature="n#a-box#19;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#20;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#21;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#22;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#23;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#24;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#25;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#26;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#27;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#28;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#29;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-box#30;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#107;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#1;n#a-entity#107;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#108;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#0;n#a-entity#108;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#1;n#a-entity#108;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#109;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#1;n#a-entity#109;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#110;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#0;n#a-entity#110;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#111;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#0;n#a-entity#111;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-entity#112;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

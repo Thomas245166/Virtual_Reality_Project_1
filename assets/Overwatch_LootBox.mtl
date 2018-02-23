@@ -1,0 +1,45 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl Overwatch_Lootbox_Oranzova
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.501961 0.239216
+Ks 0.330000 0.330000 0.330000
+
+newmtl Overwatch_Lootbox_HnedoSeda
+Ka 0.000000 0.000000 0.000000
+Kd 0.403922 0.364706 0.321569
+Ks 0.330000 0.330000 0.330000
+
+newmtl Overwatch_Lootbox_Kov
+Ka 0.000000 0.000000 0.000000
+Kd 0.474510 0.474510 0.474510
+Ks 0.330000 0.330000 0.330000
+
+newmtl Overwatch_Lootbox_Modra
+Ka 0.000000 0.000000 0.000000
+Kd 0.054902 0.356863 0.549020
+Ks 0.330000 0.330000 0.330000
+
+newmtl FrontColor
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl Overwatch_Lootbox_Cerna
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl Overwatch_Lootbox_Bezova
+Ka 0.000000 0.000000 0.000000
+Kd 0.933333 0.933333 0.933333
+Ks 0.330000 0.330000 0.330000
+map_Kd Overwatch_LootBox/Overwatch_Lootbox_Bezova.jpg
+
+newmtl Overwatch_Lootbox_St__bro
+Ka 0.000000 0.000000 0.000000
+Kd 0.647059 0.666667 0.682353
+Ks 0.330000 0.330000 0.330000
+
